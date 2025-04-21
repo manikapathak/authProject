@@ -27,6 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className= "h-60 w-80 absolute block rounded-full bg-radial from-[#FF7ED4] via-[#FF3EA5]  to-[#6420AA] to 90% opacity-45 blur-3xl animate-move-along-x"></div>
+        <div className= "h-60 w-80 absolute right-0 top-50 block rounded-full bg-radial from-[#FF7ED4] via-[#FF3EA5]  to-[#6420AA] to 90% opacity-45 blur-3xl animate-move-along-x"></div>
+        <div className= "h-55 w-70 absolute bottom-0 left-120 block rounded-full bg-radial from-[#FF7ED4] via-[#FF3EA5]  to-[#6420AA] to 90% opacity-45 blur-3xl animate-move-along-x"></div>
         {children}
       </body>
     </html>
